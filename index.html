@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Datortīkli un to veidi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link href="css/mansStils.css" rel="stylesheet" type="text/css"/>
+          </head>
+          <body> 
+<button class="tablink" onclick="openPage('Datortīkli', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Tīklu veidi', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Serveris', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('Internets', this, 'orange')">About</button>
+        
+<div id="Datortīkli" class="tabcontent">
+          <h1>Datortīkli un to veidi</h1>
+        <h2>Kas ir datortīkls?</h2>
+         <img src="images/Ekrānuzņēmums 2023-01-27 105011.png" 
+              style="width: 300px;height:200px;"alt="Datortīkli" width="350px" lenght="250px"/>
+        <p>Datortīkls jeb tīkls ir ar datoru un ar tiem saistīto ierīču grupa,
+            kas savstarpēji savienotas ar sakaru kanāliem un kas nodrošina
+            datņu un citu resursu kopīgas izmantošanas iespējas vairākiem
+            lietotājiem.</p>
+</div>
+<div id="Tīklu veidi" class="tabcontent">
+        <p>Atkarībā no datoru teritoriālā izvietojuma datortīklus var iedalīt:
+        </p>
+        <ul>
+            <li>Lokālie datortīkli(Local Area Network-LAN)- nodrošina sakarus 
+            starp datoriem nelielos attālumos. Visbiežāk šie datori atrodas vienā
+            telpā vai ēkā.</li>
+            <li>Teriotoriālie tīkli(Wide Area Network-WAN)- veidojas apvienojot
+            vairākus lokālos datortīklus, kas aptver pat vairākas valstis</li>
+        </ul>
+</div>
+        <p>Lielākā atšķirība starp abiem tīklu veidiem ir teritorijas lielums, 
+            datoru skaits, serveris.</p>
+        <style>
+            table, th, td {
+                padding: 4px;
+                text-align: middle;
+                border: 1px solid black;
+            }
+            * {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Datortīkli {background-color: red;}
+#Tīklu veidi {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+        </style>
+        <table> 
+            <tr>
+            <th></th>
+            <th>LAN</th> 
+            <th>WAN</th>
+          </tr>
+          <tr>
+            <th>Teritorijas lielums</th>
+            <td>Attālums starp diviem lokālā
+            tīkla datoriem parasti nepārsniedz 1km</td>
+            <td>Var savienot
+            datorus dažādās valstīs</td>
+          </tr>
+          <tr>
+           <th>Datoru skaits</th>
+            <td>Neliels, parasti izmanto vienu vai vairākus serverus</td>
+            <td> Daudz vairāk tīklā savienotu datoru un serveru</td>
+          </tr>
+          <tr>
+         <th>Serveris</th>
+           <td>Servera funkcijas var pildīt arī kāda no darbstacijām</td>
+           <td>Izmanto jaudīgus serverus</td>
+          </tr>
+        </table>
+        <h2>Izmantotās saites</h2>
+        <a href="https://www.uzdevumi.lv/p/informatika/5-klase/datortikli-10695/re-1df5494c-f7df-4377-9561-9a5f3541a101"> Uzdevumi.lv </a>
+           </body>
+</html>
